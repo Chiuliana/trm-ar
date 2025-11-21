@@ -79,27 +79,27 @@
     <!-- Sticker 1: Pisica1 Logo - Always available, starts the quest -->
     <a-nft id="pisica1Marker" type="nft" url="./images/pisica1" smooth="true" smoothCount="10" smoothTolerance=".01"
       smoothThreshold="5">
-      <a-entity position="0 0 0" scale="75 75 75" gltf-model="assets/cartoon_bed.glb" rotation="-90 0 0"></a-entity>
+      <a-entity position="0 0 0" scale="200 200 200" gltf-model="assets/cartoon_bed.glb" rotation="-90 0 0"></a-entity>
       <a-text value="#Somebody knocked on the door" align="center" color="#FFFFFF" width="8" position="0 -20 -20"
-        rotation="-90 0 0" scale="150 150 150"></a-text>
+        rotation="-90 0 0" scale="50 50 50"></a-text>
     </a-nft>
 
     <!-- Sticker 2: pisica2 - Unlocked after pisica1 -->
     <a-nft id="pisica2Marker" type="nft" url="./images/pisica2" smooth="true" smoothCount="10" smoothTolerance=".01"
       smoothThreshold="5">
-      <a-entity id="pisica2Model" position="0 0 0" scale="50 50 50" gltf-model="assets/letter.glb" rotation="-90 75 0"
+      <a-entity id="pisica2Model" position="0 0 0" scale="50 50 50" gltf-model="assets/letter.glb" rotation="90 75 0"
         visible="false"></a-entity>
       <a-text id="pisica2Text" value="#Its the postman! Greet her" align="center" color="#FFFFFF" width="8"
-        position="0 -20 -20" rotation="90 0 0" scale="50 50 50" visible="false"></a-text>
+        position="0 -20 -20" rotation="-90 0 0" scale="50 50 50" visible="false"></a-text>
     </a-nft>
 
     <!-- Sticker 3: pisica3 - Unlocked after pisica2 -->
     <a-nft id="pisica3Marker" type="nft" url="./images/pisica3" smooth="true" smoothCount="10" smoothTolerance=".01"
       smoothThreshold="5">
-      <a-entity id="pisica3Model" position="100 -250 -250" scale="5 5 5" gltf-model="assets/hello_my_friends.glb"
+      <a-entity id="pisica3Model" position="100 -250 -250" scale="50 50 50" gltf-model="assets/hello_my_friends.glb"
         rotation="-90 0 0" visible="false"></a-entity>
       <a-text id="pisica3Text" value="#Recieve the letter" align="center" color="#FFFFFF" width="8" position="0 -20 -20"
-        rotation="-90 0 0" scale="200 200 200" visible="false"></a-text>
+        rotation="-90 0 0" scale="50 50 50" visible="false"></a-text>
     </a-nft>
 
     <!-- Sticker 4: pisica4 - Final stage, unlocked after pisica3 -->
@@ -108,7 +108,7 @@
       <a-entity id="pisica4Model" position="0 0 0" scale="10 10 10" gltf-model="assets/cute_cartoon_flower.glb"
         rotation="-90 0 0" visible="false"></a-entity>
       <a-text id="pisica4Text" value="#Cat town is happy now!" align="center" color="#FFFFFF" width="8"
-        position="0 -20 -20" rotation="-90 0 0" scale="75 75 75" visible="false"></a-text>
+        position="0 -20 -20" rotation="-90 0 0" scale="50 50 50" visible="false"></a-text>
     </a-nft>
 
     <a-entity camera></a-entity>
